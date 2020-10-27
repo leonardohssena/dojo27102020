@@ -8,16 +8,8 @@
     "start": "babel-node src/index.js",
     "debug": "babel-node-debug src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leonardohssena/sandbox-api.git"
-  },
   "author": "Leonardo Sena",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leonardohssena/sandbox-api/issues"
-  },
-  "homepage": "https://github.com/leonardohssena/sandbox-api#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
