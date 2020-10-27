@@ -2,7 +2,7 @@ import { Router } from 'express'
 
 import Functions from '../support/functions'
 
-import { base } from '../pipeline'
+import { base, wallet } from '../pipeline'
 
 const Routes = Router()
   .get(
@@ -21,6 +21,11 @@ const Routes = Router()
   .delete(
     '/:id',
     Functions.softDelete
+  )
+  .get(
+    '/info',
+    wallet,
+    Functions.getOne
   )
 
 export default Routes
