@@ -23,7 +23,7 @@ const Routes = Router()
     Functions.softDelete
   )
   .get(
-    '/info',
+    '/coins',
     wallet,
     Functions.getOne
   )
